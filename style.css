@@ -1,4 +1,4 @@
-/* Reset default and apply Box Model rules */
+/* Reset & Box Model setup */
 * {
     margin: 0;
     padding: 0;
@@ -20,15 +20,11 @@ body {
     color: white;
     text-align: center;
     padding: 20px;
-    border: 3px solid #6b452a;
+    border: 3px solid #6b452a; /* Border demonstrates Box Model */
     margin-bottom: 20px;
 }
 
-.motto {
-font-style: italic;
-}
-
-/* Navigation styling */
+/* Navigation */
 .navigation {
     background-color: #f0e1d2;
     padding: 10px;
@@ -48,17 +44,26 @@ font-style: italic;
     color: #8b5e3c;
 }
 
-/* Card sections (Box Model) */
+/* Cards for sections */
 .card {
     background-color: white;
-    padding: 20px; /* Inside space */
-    margin-bottom: 20px; /* Outside space */
+    padding: 20px; /* Inner space */
+    margin-bottom: 20px; /* Outer space */
     border: 2px solid #d6c4b2;
     border-radius: 5px;
-    border-color: aquamarine;
 }
 
-/* Footer styling */
+.card h2 {
+    margin-bottom: 10px;
+    color: #8b5e3c;
+}
+
+.card ul {
+    padding-left: 20px; /* Indent list */
+    margin-top: 10px;
+}
+
+/* Footer */
 .site-footer {
     text-align: center;
     padding: 10px;
