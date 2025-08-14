@@ -1,0 +1,68 @@
+/* Reset default and apply Box Model rules */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f5f0; /* Warm beige for hospitality feel */
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styling */
+.site-header {
+    background-color: #8b5e3c; /* Rich brown */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border: 3px solid #6b452a;
+    margin-bottom: 20px;
+}
+
+.motto {
+font-style: italic;
+}
+
+/* Navigation styling */
+.navigation {
+    background-color: #f0e1d2;
+    padding: 10px;
+    border: 2px solid #cbb7a2;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.navigation a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #6b452a;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: #8b5e3c;
+}
+
+/* Card sections (Box Model) */
+.card {
+    background-color: white;
+    padding: 20px; /* Inside space */
+    margin-bottom: 20px; /* Outside space */
+    border: 2px solid #d6c4b2;
+    border-radius: 5px;
+    border-color: aquamarine;
+}
+
+/* Footer styling */
+.site-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8b5e3c;
+    color: white;
+    border-top: 2px solid #6b452a;
+}
